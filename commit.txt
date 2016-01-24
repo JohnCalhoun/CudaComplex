@@ -1,0 +1,6 @@
+add functions and operator overloads in header
+
+division
+exponential
+trig
+cout/print
