@@ -7,7 +7,7 @@ INCLUDES=-I /usr/local/include
 UTIL=/home/john/projects/flamingo/utilities
 TEST_INCLUDES=-I $(UTIL) 
 TEST_LINKS=-lgtest -lpthread -lboost_thread-mt
-DEPENDS=complex.h complex.inl comples_test.cu
+DEPENDS=complex.h complex.inl complex_test.cu
 
 commit:$(DEPENDS)
 	git commit -a -f commit.txt
